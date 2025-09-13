@@ -1,12 +1,12 @@
-### What is this
+## What is this
 A program that translates the technical output from OasisFloodFillGenerator into a shader-ready format.
 It contains the basic functionality of the program: merging Oasis with a shader file (tested on Bliss-shader).
-**This tool is tested only on Bliss-Shader; may not work with other shaders**
+- **This tool is tested only on Bliss-Shader; may not work with other shaders**
 
-## Additions
-Switchable dark mode
-Output file preview with highlighted changes (green - added, blue - changed)
-It is an all-in-one exe.
+## Features
+- Merge
+- Switchable dark mode
+- Output file preview with highlighted changes (green - added, blue - changed)
 
 ## How to use
 1. Download the `.exe`.
