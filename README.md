@@ -22,6 +22,12 @@ It contains the basic functionality of the program: merging Oasis with a shader 
 7. Back up your shader and replace the `block.properties` file in it with the generated one.
 8. Load the shader, enable floodfill, and check the results.
 
+## Important notes for 14.09.2025
+1. When Using [OasisFloodFillGenerator](https://github.com/MikiP98/OasisFloodFillGenerator), remember to:
+   - Manually setting the colors for blocks in `block.properties` (before using my tool) - unfortunately this does not work at the moment
+      ~~- If you plan to use [Boe's Earth](https://github.com/MikiP98/Boe-s-Earth), remember to remove the blocks named `vine` and `snow` from `block.50=` in the `block.properties` file.~~
+      ~~- This is important for the animations to work at all (there's a bug in [OasisFloodFillGenerator](https://github.com/MikiP98/OasisFloodFillGenerator) that causes blocks that already have good mappings to be misused).~~
+   - Already fixed in new version 1.1: Script automaticly delets `vine` and `snow` entries from `block.50=`
 
 ## Credits
 - [OasisFloodFillGenerator](https://github.com/MikiP98/OasisFloodFillGenerator) – for providing the raw automapping data used by this tool.  
